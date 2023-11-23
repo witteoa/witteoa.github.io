@@ -1,0 +1,48 @@
+/* HEADER */
+
+.menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo {
+    /* Включаем flexbox */
+    display: flex;
+    /* Направление расположения блоков относительно Main axis слева направо */
+    flex-direction: row;
+    /* Направление расположения блоков относительно Cross axis по центру */
+    align-items: center;
+    /* Размер блок с лого и названием его вес относительно других элементов */
+    flex-grow: 1;
+}
+.logo-img {
+    margin-right: 40px;
+}
+.heaber-menu {
+    flex-grow: 3;
+}
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social-networks {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-logo {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
